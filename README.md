@@ -1,6 +1,6 @@
 # Home-Credit-Competition
 
-#Description of project
+# Description of project
 ## Goal
 This is a part of the Practice Project Capston class IS6812 at the University of Utah, David Eccles School of Business. This is my personal notebook for the project, but my team also include Linh Do, Ali Ladha and Sudeeptha Sivarajan. 
 
