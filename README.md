@@ -37,7 +37,7 @@ Although using only two datasets was part of our strategy, I’d love to take th
 - Leverage different metrics for success?
 Even though accuracy was acceptable and easy to explain, I couldn’t help but envision using other metrics that better reflect the true goal of the competition: identifying default borrowers. In this context, metrics like precision, recall, or a balanced metric such as the F1-score would more effectively capture the business objective. Additionally, I’d be interested in exploring metrics like ROC-AUC, which offer deeper insight into the model's performance across various classification thresholds.
 
-### Learnd from this?
+### Learned from this?
 - Function, function, function!
 When I first started this competition, I barely used functions in my notebook. This made my EDA process and the application of models to the test set inconsistent, difficult to manage and overall a nightmare for anyone who try to make sense of my code. However, in this final notebook, embracing the use of functions made managing datasets and training workflows much smoother. Going forward, I plan to take full advantage of this modularity by building reusable function files that can be easily applied to future projects.
 
