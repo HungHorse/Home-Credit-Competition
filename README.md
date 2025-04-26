@@ -1,5 +1,5 @@
 # Home-Credit-Competition
-
+---
 # Description of project
 ### Business problem and context
 This is a part of the Practice Project Capston class IS6812 at the University of Utah, David Eccles School of Business. This is my personal notebook for the project, but my team also include Linh Do, Ali Ladha and Sudeeptha Sivarajan. 
@@ -12,6 +12,7 @@ This is where our team comes in. With limited data points on borrowers’ credit
 ### My contribution
 I cleaned the application_train, application_test, and previous_application tables by leveraging the cleaning functions developed during our team's EDA work, which made the process much more efficient. I also contributed to creating and using a cross-validation function that allowed us to quickly test various scikit-learn models for accuracy, eliminating the need for the time-consuming process of manually training and testing each model.
 
+---
 # The process
 ### Datasets
 <img width="707" alt="image" src="https://github.com/user-attachments/assets/c82e88f9-8293-431d-8a99-b3494e76ad4f" />
@@ -24,8 +25,7 @@ With more than 200 attributes across all tables, we spent a lot of time feature 
 - Another challenge we faced was the way we handled aggregation before joining tables.
 We started by joining from the furthest datasets back into the main table, application_train. After multiple rounds of aggregation and changes to primary keys, the data became increasingly watered down, resulting in an unfocused master table filled with obscure noise and missing rows. This significantly increased training time, aggregation time, and overall complexity, yet provided almost no predictive power — accuracy on downsampled data hovered around 50%. Then we switched up our strategy, started with the main table (application_train) and then gradually introduced additional tables only when necessary. This have minimized noise and allowed us to stop adding more data once accuracy improvements became negligible.
 
-
-
+---
 # Future Analysis and outcome
 ### Outcome
 Our champion model is a CatBoost classifier, which achieved an accuracy of 70% on the training dataset and a Kaggle score of approximately 70.
