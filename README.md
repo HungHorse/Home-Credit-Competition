@@ -1,4 +1,3 @@
-# Home-Credit-Competition
 ---
 # Description of project
 ### Business problem and context
